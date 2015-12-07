@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HELLO WORLD</title>
+
+    <script src="bower_components/requirejs/require.js"></script>
+    <script>
+        require.config({
+            baseUrl: '.',
+            paths: {
+                //"main": "scripts/main-built",
+                "main": "scripts/main"
+            }
+        });
+        require(["main"]);
+    </script>
+</head>
+<body>
+    <div ui-view="content"></div>
+</body>
+</html>

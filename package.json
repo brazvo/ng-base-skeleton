@@ -1,0 +1,15 @@
+{
+  "name"         : "ng-base-skeleton",
+  "version"      : "0.0.0",
+  "description"  : "Simple angular skeleton",
+  "main"         : "server.js",
+  "author"       : "BZvolensky",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2",
+    "requirejs": "~2.1.2"
+  }
+}
